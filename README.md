@@ -1,6 +1,5 @@
 # Introduction
-Welcome to the portfolio of Iaroslav Lasiichuk. This portfolio was designed to allow potential employers to easily view and access examples of Iaroslav Lasiichuk's previous work.
-
+Welcome to the portfolio of Iaroslav Lasiichuk. This portfolio was designed to view and access examples of Iaroslav Lasiichuk's previous work.
 ## Mock up
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/img/screenshot.png)
 ## Navigation
