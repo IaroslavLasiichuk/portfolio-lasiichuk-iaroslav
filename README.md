@@ -2,7 +2,7 @@
 Welcome to the portfolio of Iaroslav Lasiichuk. This portfolio was designed to allow potential employers to easily view and access examples of Iaroslav Lasiichuk's previous work.
 
 ## Mock up
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/img/screenshot_portfolio.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/img/screenshot.png)
 ## Navigation
 Upon loading the portfolio, you will be presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them. You can navigate to these sections by clicking the corresponding links in the navigation.
 
