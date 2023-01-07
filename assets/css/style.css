@@ -12,7 +12,6 @@
 }
 
 body {
-    font-family: 'Satoshi', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -32,14 +31,20 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin-right: 20px;
+}
+
+.hidden {
+    display: none;
 }
 
 a[class~="nav-link"]:hover {
     border-bottom: 3px solid white;
 }
+
 .logo {
-  width: 70px; 
-  height: 40px;
+    width: 70px;
+    height: 40px;
 }
 
 h1 {
@@ -55,7 +60,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(40vh + 60px);
+    height: calc(50vh + 90px);
     width: 100vw;
 }
 
@@ -69,11 +74,10 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
     text-transform: uppercase;
-    padding-top: 30px;
+    padding: 30px 0 30px 0;
     line-height: 50px;
 }
 
@@ -86,6 +90,7 @@ h2 {
 .button {
     width: 140px;
     height: 40px;
+    margin: 30px;
     color: var(--primary-color);
     background-color: var(--background);
     border: none;
@@ -99,6 +104,7 @@ h2 {
 .wrapper {
     background-color: var(--grey);
     padding-bottom: 30px;
+    padding-top: 45px;
 }
 
 .flex-row {
@@ -136,12 +142,13 @@ h3 {
 .text-secondary {
     letter-spacing: 1px;
     font-size: 20px;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 a {
     color: var(--primary-color);
-    padding: 10px;
+    padding: 10px 10px;
+    text-align: center;
     text-decoration: none;
     letter-spacing: 2px;
 }
@@ -187,13 +194,18 @@ a[href$=".com"] {
 
 /* Contact form */
 
-.contact {
-    margin-top: 50px;
+.form {
+    background: linear-gradient(to top, rgba(145, 144, 142, 0.1) 0%, rgba(145, 144, 142, 0.5) 50%, rgb(145, 144, 142) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 45px;
 }
 
 input {
     width: 400px;
-    height: 30px;
+    height: 60px;
+    border: 2px solid var(--background);
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -205,14 +217,20 @@ label {
 }
 
 textarea {
-    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--background);
+    border-radius: 10px;
 }
 
 /* Footer */
 .footer {
     background: var(--grey);
     padding: 10px;
-    margin-top: 40px;
+    font-weight: 100;
+}
+
+h5 {
+    font-weight: 400;
 }
 
 .fa-brands {
@@ -233,17 +251,28 @@ textarea {
     /* Header */
     .header {
         display: flex;
-        flex-direction: column;
-        height: 30%;
-        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
     }
 
     .navbar {
-        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 40px; */
+    }
+
+    .hidden {
+        display: inline;
     }
 
     .nav-link {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     h1 {
@@ -256,11 +285,12 @@ textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
 
     .hero {
-        width: 250px;
-        margin: 0;
+        width: 220px;
+        margin: 0px;
     }
 
     h2 {
@@ -269,7 +299,7 @@ textarea {
     }
 
     .text-primary {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     /* Projects */
@@ -283,9 +313,11 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 10px;
-        margin-top: 15;
+        margin: 15px 0;
     }
-
+h2{
+    padding: 10px;
+}
     h3 {
         font-size: 18px;
     }
@@ -295,7 +327,7 @@ textarea {
     }
 
     .image {
-        width: 250px;
+        width: 240px;
         height: 200px;
     }
 
@@ -310,8 +342,8 @@ textarea {
     }
 
     /* Form */
-    .contact {
-        margin-top: 30px;
+    .form {
+        padding-top: 30px;
     }
 
     .contact h3 {
@@ -319,12 +351,20 @@ textarea {
     }
 
     input {
-        width: 270px;
+        width: 220px;
         height: 30px;
         margin-bottom: 15px;
+        font-size: 13px;
+      
     }
 
+    label {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
     textarea {
-        width: 270px;
+        width: 220px;
     }
 }

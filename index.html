@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,10 @@
     <title>Portfolio Iaroslav Lasiichuk</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@301,300&display=swap" rel="stylesheet">
-    <script defer src="https://kit.fontawesome.com/be798774c5.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/be798774c5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,6 +23,7 @@
         </a>
         <nav>
             <ul class="navbar">
+                <li><a class="nav-link hidden" href="#"><i class="fa-solid fa-house-user"></i></a></li>
                 <li><a class="nav-link" href="#about">About Me</a></li>
                 <li><a class="nav-link" href="#work">Work</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -38,7 +37,7 @@
             <article class="hero text-center">
                 <h2>Hi! I am Iaroslav Lasiichuk</h2>
                 <p class="text-primary text-center">Hi there! I'm Front-end web Developer!!!</p>
-                <a href="#contact" class="button">Contact Me</a>
+                <a href="#contact" class="button flex-row">Contact Me</a>
             </article>
     </main>
 
@@ -48,7 +47,8 @@
         <!-- First application -->
 
         <h2 class="text-center">My Work</h2>
-        <p class="text-secondary text-center">Exploring the Power of JavaScript Frameworks and Libraries. Building Interactive Web Applications with JavaScript. </p>
+        <p class="text-secondary text-center">Exploring the Power of JavaScript Frameworks and Libraries. Building
+            Interactive Web Applications with JavaScript. </p>
         <section class="flex-row">
             <article class="flex-row project">
                 <article class="content text-center">
@@ -112,16 +112,17 @@
 
     <!-- Form -->
     <section id="contact" class="form">
-        <form action="/" class="flex-column contact">
+        <form  class="flex-column contact">
             <h2>Contact me</h2>
-            <p class="text-secondary text-center">Would you like to contact me please fill out the info below and I will be in touch.</p>
+            <p class="text-secondary text-center">Would you like to contact me please fill out the info below and I will
+                be in touch.</p>
             <label for="name">Name</label>
             <input class="text-center" type="text" placeholder="Enter your name">
             <label for="last">Last Name</label>
             <input class="text-center" type="text" placeholder="Enter your last name">
             <label for="email">Email</label>
             <input class="text-center" type="email" name="email" id="email" placeholder="Enter your email">
-            <textarea name="message" id="message" cols="55" rows="10"></textarea>
+            <textarea name="message" id="message" cols="48" rows="10"></textarea>
             <button class="button">Send</button>
         </form>
     </section>
