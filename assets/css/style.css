@@ -212,6 +212,7 @@ input {
     border: 2px solid var(--background);
     border-radius: 5px;
     margin-bottom: 10px;
+    box-shadow: 20px 5px 15px#272b28;
 }
 
 label {
@@ -225,6 +226,7 @@ textarea {
     border-radius: 10px;
     border: 2px solid var(--background);
     border-radius: 10px;
+    box-shadow: 20px 5px 15px#272b28;
 }
 
 /* Footer */
