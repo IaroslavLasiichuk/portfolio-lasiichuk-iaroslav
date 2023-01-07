@@ -9,10 +9,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Header */
@@ -36,6 +37,10 @@ body {
 
 .hidden {
     display: none;
+}
+
+.fa-house {
+    font-size: 20px;
 }
 
 a[class~="nav-link"]:hover {
@@ -241,10 +246,6 @@ h5 {
     transform: scale(1.4);
 }
 
-.fa-house {
-    font-size: 20px;
-}
-
 /* Responsive disign */
 @media screen and (max-width: 992px) {
 
@@ -253,31 +254,27 @@ h5 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .logo {
         display: none;
     }
 
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 40px; */
-    }
-
     .hidden {
         display: inline;
     }
 
-    .nav-link {
-        font-size: 13px;
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 50px;
     }
 
-    h1 {
-        font-size: 25px;
-        margin-bottom: 10px;
+    .nav-link {
+        font-size: 13px;
     }
 
     /* About */
@@ -315,9 +312,11 @@ h5 {
         padding: 10px;
         margin: 15px 0;
     }
-h2{
-    padding: 10px;
-}
+
+    h2 {
+        padding: 10px;
+    }
+
     h3 {
         font-size: 18px;
     }
@@ -343,7 +342,7 @@ h2{
 
     /* Form */
     .form {
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     .contact h3 {
@@ -355,14 +354,12 @@ h2{
         height: 30px;
         margin-bottom: 15px;
         font-size: 13px;
-      
     }
 
     label {
         font-size: 15px;
         font-weight: 300;
     }
-
 
     textarea {
         width: 220px;
